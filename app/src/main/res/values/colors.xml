@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Niagara-style Launcher Palette -->
+    <color name="launcher_bg">#000000</color>
+    <color name="launcher_bg_surface">#0D0D0D</color>
+    <color name="launcher_accent">#5B8CFF</color>
+    <color name="launcher_accent_dark">#3A6BDE</color>
+    <color name="launcher_accent_light">#7FABFF</color>
+
+    <color name="launcher_text_primary">#FFFFFF</color>
+    <color name="launcher_text_secondary">#8A8A8A</color>
+    <color name="launcher_text_hint">#4A4A4A</color>
+
+    <color name="launcher_card_bg">#111111</color>
+    <color name="launcher_divider">#1A1A1A</color>
+    <color name="launcher_ripple">#285B8CFF</color>
+
+    <color name="sidebar_text">#5B8CFF</color>
+    <color name="sidebar_text_active">#FFFFFF</color>
+    <color name="sidebar_indicator_bg">#405B8CFF</color>
+
+    <color name="favorites_bg">#1A1A1F</color>
+    <color name="splash_bg">#000000</color>
+    <color name="permission_granted">#4CAF50</color>
+    <color name="permission_denied">#8A8A8A</color>
+
+    <!-- Legacy compat -->
+    <color name="launcher_orange">#5B8CFF</color>
+    <color name="launcher_orange_light">#7FABFF</color>
+    <color name="launcher_orange_dark">#3A6BDE</color>
+    <color name="launcher_background">#000000</color>
+    <color name="launcher_background_light">#0D0D0D</color>
+    <color name="launcher_text">#FFFFFF</color>
+    <color name="launcher_card_bg_compat">#111111</color>
+    <color name="launcher_ripple_compat">#285B8CFF</color>
+</resources>

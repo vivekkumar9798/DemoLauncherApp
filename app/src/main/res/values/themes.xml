@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.DemoLauncharApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/launcher_accent</item>
+        <item name="colorPrimaryVariant">@color/launcher_accent_dark</item>
+        <item name="colorSecondary">@color/launcher_accent_light</item>
+        <item name="android:colorBackground">@color/launcher_bg</item>
+        <item name="colorSurface">@color/launcher_bg</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/launcher_text_primary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowBackground">@color/launcher_bg</item>
+    </style>
+
+    <style name="Theme.DemoLauncharApp" parent="Base.Theme.DemoLauncharApp" />
+    <style name="Theme.DemoLauncharApp.NoActionBar" parent="Base.Theme.DemoLauncharApp" />
+    
+    <!-- Fullscreen theme for MainActivity -->
+    <style name="Theme.DemoLauncharApp.Fullscreen" parent="Base.Theme.DemoLauncharApp">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+    </style>
+
+    <!-- Splash specific - no window animation -->
+    <style name="Theme.DemoLauncharApp.Splash" parent="Base.Theme.DemoLauncharApp">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/splash_bg</item>
+    </style>
+    <!-- Choose App dialog - dark rounded style -->
+    <style name="DarkDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">#1E1E2E</item>
+        <item name="colorSurface">#1E1E2E</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+</resources>
